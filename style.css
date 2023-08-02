@@ -1,9 +1,17 @@
 
 .top-container {
-border: solid 5px black;
 display: flex;
 justify-content: center;
 text-align: center;
+background-color: #1d70b8;
+
+}
+
+
+
+.h1 {
+
+    color: white;
 }
 
 .top-container-welcome {
