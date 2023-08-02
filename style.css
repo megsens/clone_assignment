@@ -1,4 +1,14 @@
+.black-container {
+    background-color: black;
+    display: flex;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-left: 300px;
 
+
+
+}
  .blue-container {
     display: flex;
     justify-content: space-around;
@@ -51,4 +61,10 @@ p {
 .crown-pic {
     display: flex;
     flex-direction: row-reverse;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
