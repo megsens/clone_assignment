@@ -1,26 +1,25 @@
 
-top-container {
-margin: auto;
-border: solid, 5, black;
+.top-container {
+border: solid 5px black;
 display: flex;
 justify-content: center;
 text-align: center;
 }
 
-top-container-welcome {
+.top-container-welcome {
 border: solid, 5; 
 display: flex;
 justify-content: center;
 text-align: center;
 }
 
-middle-container {
+.middle-container {
     display: flex;
     background-color: #1d70b8;
 
 }
 
-bottom-container {
+.footer-container {
     background-color: black;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 0;
@@ -45,11 +44,4 @@ body {
 p {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-hr {
-    border: dotted #6096ba 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
 }
