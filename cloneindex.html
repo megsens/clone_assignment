@@ -22,7 +22,7 @@
         <!-- Blue banner code -->
 
 
-         <div class="blue-container">
+        <div class="blue-container">
 
         <div class="welcome">
             <h1>Welcome to Gov.UK</h1>
@@ -38,6 +38,7 @@
 
     </div>
 
+    <!-- Popular heading -->
 
         <div class="popular">
             
@@ -45,24 +46,41 @@
 
         </div>
 
-        <div class="popular-links">
+        <!-- Popular Links Table -->
 
-            <a href="cost">Get support with the cost of living</a>
-            <a href="energy">Find out about help you can get with your energy bills</a>
-            <a href="job">Find a job</a>
-            <a href="sign-in">Universal Credit account: sign in</a>
-            <a href="national-insurance">Check your National Insurance record</a>
-
-        
-        
+        <div class="popular-container">
+            <div class="popular-link1"><a href="#">Get support with the cost of living</a></div>
+            <div class="popular-link2"><a href="#">Find out about help you can get with your energy bills</a></div>
+            <div class="popular-link3"><a href="#">Find a job</a></div>
+            <div class="popular-link4"><a href="#">Universal Credit account: sign in</a></div>
+            <div class="popular-link5"><a href="#">Check your National Insurance record</a></div>
         </div>
-        <div class="topics"><h2>Topics</h2></div>
-        <div></div>
-        <div> div tag   </div>
 
+<br>
 
-            </div>
-            <br>
+        <!-- Topics Start -->
+
+        <br>
+
+        <div class="topics">
+
+            <h2>Topics</h2>
+
+        </div>
+
+        <div class="topics-container">
+            <div class="topic-link1"><a href="#">Benefits</a></div>
+            <div class="topic-link2"><a href="#">Births, deaths, marriages and care</a></div>
+            <div class="topic-link3"><a href="#">Business and self-employed</a></div>
+            <div class="topic-link4"><a href="#">Childcare and parenting</a></div>
+            <div class="topic-link5"><a href="#">Citizenship and living in the UK</a></div>
+            <div class="topic-link6"><a href="#">Crime, justice and the law</a></div>
+        </div>
+
+        </div>
+
+            <!-- Topics End -->
+                    <br>
 
             </div>
         </div>
@@ -73,48 +91,37 @@
 
     </div>
 
+    <br>
+
     <!-- Footer code -->
 
 
     <div class="footer-container">
-        <footer>
+        <div>
             <a class="footer-link" href="#">Help</a>
             <a class="footer-link" href="#">Privacy</a>
             <a class="footer-link" href="#">Cookies</a>
             <a class="footer-link" href="#">Accessibility Statement</a>
             <a class="footer-link" href="#">Contact</a>
             <a class="footer-link" href="#">Terms and Conditions</a>
+        </div>
+        <br>
+        <div>
             <a class="footer-link" href="#">Rhestr o Wasanaethau Cymraeg</a>
             <a class="footer-link" href="#">Government Digital Service</a>
-        </footer>
+        </div>
+            
+            <!-- Crown pic and copyright symbol -->
+        <div class="crown-pic">
+            <a href="" target="_blank" ><img src="img/gov-creast.png"><p class="copyright">©Crown Copyright.</p></a>
+        </div>
+
     </div>
 
-        <!-- Crown pic and copyright symbol -->
 
 
-    <div class="crown-pic">
-        <a href="" target="_blank" ><img src="img/gov-creast.png"><p class="copyright">©Crown Copyright.</p></a>
-    </div>
+    <br>
+
+
+
 </body>
-
-<script>
-    /* When the user clicks on the button, 
-    toggle between hiding and showing the dropdown content */
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-    
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function(event) {
-      if (!event.target.matches('.dropdown-button')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-          var openDropdown = dropdowns[i];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-          }
-        }
-      }
-    }
-    </script>
