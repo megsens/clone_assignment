@@ -1,4 +1,5 @@
-<!-- Boiler Plate -->
+<!-- Doc Type -->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <!-- Boiler Plate -->
@@ -11,29 +12,39 @@
 
 <body>
 
+    <!-- Back banner and logo code -->
+
+
     <div class="black-container">
-        <a href="" target="_blank" ><img src="img/govlogo.png"></a>
+        <a href="" target="_blank"><img src="img/govlogo.png"></a>
     </div>
 
-        <div class="menu">
-            
-            <nav>
-            <a href="#">Benefits</a>
-            <a href="#">Births. death, marriages and care</a>
-            <a href="#">Business and self-employed</a>
-            <a href="#">Citizenship and living in the UK</a>
-            <a href="#">Crime, justice and the law</a>
-            </nav>
+    <!-- Start of click dropdown code -->
+
+
+        <div class="dropdown">
+            <button onclick="myFunction()"
+        class="drop-button">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+
+                <a href="#benefits">Benefits</a>
+                <a href="births">Births. death, marriages and care</a>
+                <a href="business">Business and self-employed</a>
+
+            </div>
 
         </div>
 
 
+        <!-- End of nav menu code -->
+
+        <!-- Blue banner code -->
 
 
-    <div class="blue-container">
+         <div class="blue-container">
 
         <div class="welcome">
-            <h1>Welcome to Gov.Uk</h1>
+            <h1>Welcome to Gov.UK</h1>
         </div>
 
         <div class="subheading">
@@ -46,7 +57,27 @@
 
     </div>
 
-    <div class="middle-container">
+
+        <div class="popular">
+            
+            <h3>Popular on GOV.UK</h3>
+
+        </div>
+
+        <div class="popular-links">
+
+            <a href="cost">Get support with the cost of living</a>
+            <a href="energy">Find out about help you can get with your energy bills</a>
+            <a href="job">Find a job</a>
+            <a href="sign-in">Universal Credit account: sign in</a>
+            <a href="national-insurance">Check your National Insurance record</a>
+
+        
+        
+        </div>
+        <div > div tag   </div>
+        <div > div tag   </div>
+        <div > div tag   </div>
 
 
             </div>
@@ -58,7 +89,11 @@
         <div class>
             <br>
         </div>
+
     </div>
+
+    <!-- Footer code -->
+
 
     <div class="footer-container">
         <footer>
@@ -73,8 +108,32 @@
         </footer>
     </div>
 
+        <!-- Crown pic and copyright symbol -->
+
 
     <div class="crown-pic">
         <a href="" target="_blank" ><img src="img/gov-creast.png"><p class="copyright">©Crown Copyright.</p></a>
     </div>
 </body>
+
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropdown-button')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
