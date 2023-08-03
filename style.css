@@ -194,12 +194,20 @@ padding: 15px;
 
 .hr-footer {
 
+    margin-top: 40px;
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
 }
 
 .hr-government {
+
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));     
+}
+
+.hr-departments {
 
     border: 0;
     height: 1px;
@@ -467,8 +475,15 @@ font-size: 20px;
 
 }
 
+.departments {
 
+    display: flex;
+    padding-top: 40px;
+    padding-left: 310px;
+    padding-bottom: 40px;
+    border-spacing: 20px;
 
+}
 
 
 body {
