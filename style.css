@@ -497,28 +497,41 @@ body {
 }
 
 
-/* .crown-pic {
+.crown-pic {
     display: flex;
     flex-direction: row-reverse;
     padding-top: 100px;
     padding-right: 310px;
     padding-bottom: 30px;
     white-space: nowrap;
-} */
+}
+
+.blue-box {
+    width: 100%;
+    background-color: #1d70b8;
+    border: black;
+    visibility: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 .footer-container {
+
+    border-top: 10px solid #1d70b8;
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
     justify-content: center;
     /* white-space: nowrap; */
     align-items: center;
+    padding-top: 25px;
+    display: grid;
 }
 
 .table-footer-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
 
 }
