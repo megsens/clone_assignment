@@ -184,6 +184,7 @@ padding: 15px;
 
 }
 
+
 .hr-topics {
 
     border: 0;
@@ -196,6 +197,13 @@ padding: 15px;
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+}
+
+.hr-government {
+
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));     
 }
 
 .topics-container {
@@ -219,6 +227,14 @@ font-size: 20px;
 
 }
 
+.topic-link1 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+
+}
+
 .topic-link2 {
 
     background:none;
@@ -227,6 +243,14 @@ font-size: 20px;
     padding-bottom: 10px;
     padding-right: 20px;
     color: #1d70b8;
+
+}
+
+.topic-link2 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
 
 }
 
@@ -241,6 +265,14 @@ font-size: 20px;
 
 }
 
+.topic-link3 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+
+}
+
 .topic-link4 {
 
     background:none;
@@ -249,6 +281,14 @@ font-size: 20px;
     padding-bottom: 10px;
     padding-right: 20px;
     color: #1d70b8;
+
+}
+
+.topic-link4 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
 
 }
 
@@ -263,6 +303,14 @@ font-size: 20px;
 
 }
 
+.topic-link5 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+
+}
+
 .topic-link6 {
 
     background:none;
@@ -273,6 +321,155 @@ font-size: 20px;
     color: #1d70b8;
 
 }
+
+.topic-link6 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+
+}
+
+.government {
+
+    display: flex;
+    padding-top: 40px;
+    padding-left: 310px;
+    padding-bottom: 5px;
+    border-spacing: 20px;
+
+}
+
+.gov-find {
+
+    display: flex;
+    padding-top: 10px;
+    padding-left: 310px;
+    padding-bottom: 40px;
+    border-spacing: none; 
+}
+
+.government-container {
+
+border: solid, 5; 
+display: flex;
+flex-direction: column;
+padding-left: 310px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+.government-link1 {
+
+    background:none;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: #1d70b8;
+}
+
+.government-link1 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+
+}
+
+.government-link2 {
+
+    background:none;
+    font-size: 22px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: #1d70b8;
+}
+
+.government-link2 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+
+}
+
+.government-link3 {
+
+    background:none;
+    font-size: 22px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: #1d70b8;
+}
+
+.government-link3 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+
+}
+
+.government-link4 {
+
+    background:none;
+    font-size: 22px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: #1d70b8;
+}
+
+.government-link4 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+
+}
+
+.government-link5 {
+
+    background:none;
+    font-size: 22px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: #1d70b8;
+}
+
+.government-link5 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+
+}
+
+.government-link6 {
+
+    background:none;
+    font-size: 22px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: #1d70b8;
+}
+
+.government-link6 a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+
+}
+
+
+
+
 
 body {
     background-color: white;
