@@ -517,6 +517,7 @@ body {
 
 .footer-container {
 
+    background-color: #f3f2f1;
     border-top: 10px solid #1d70b8;
     display: flex;
     flex-direction: row;
