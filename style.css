@@ -559,14 +559,10 @@ body {
     text-decoration-thickness: 5px;
     text-underline-position: under;
 }
-
-
-
 .box-rows {
 
     font-size: large;
     display: flex;
     flex-direction: row;
     padding-left: 100px;
-    padding-bottom
 }
