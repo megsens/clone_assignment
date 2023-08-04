@@ -1,20 +1,25 @@
-
-    
-    // <!-- Start of click dropdown code -->
-
-
+<html>
+    <head>
+        <script>
+            function myFunction(){
+                var dropdownElement = document.getElementById('myDropdown')
+                var newVisibility = dropdownElement.style.visibility == 'hidden' ? 'visible' : 'hidden'
+                dropdownElement.style.visibility = newVisibility
+            }
+        </script>
+    </head>
+    <body>
         <div class="dropdown">
-            <button onclick="myFunction()"
-        class="drop-button">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-
+            <button 
+                onclick="myFunction()"
+                class="drop-button">
+                Dropdown
+            </button>
+            <div id="myDropdown" class="dropdown-content">
                 <a href="#benefits">Benefits</a>
                 <a href="births">Births. death, marriages and care</a>
                 <a href="business">Business and self-employed</a>
-
             </div>
-
         </div>
-
-
-        // <!-- End of nav menu code -->
+    </body>
+</html>

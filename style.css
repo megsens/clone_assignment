@@ -4,16 +4,24 @@
     background-color: black;
     display: flex;
     padding-top: 0px;
-    padding-left: 0px;
+    padding-right: 300px;
     padding-bottom: 0px;
     padding-left: 300px;
+}
+
+.drop-button {
+
+    justify-content: flex-end;
+    background-color: none;
+    border: none;
+
 }
 .blue-container {
     display: flex;
     justify-content: space-around;
     text-align: left;
     flex-direction: column;
-    background-color: #1d70b8;
+    background-color: #104879;
     color: white;
     
     }
@@ -500,9 +508,9 @@ body {
 .crown-pic {
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 100px;
-    padding-right: 310px;
-    padding-bottom: 30px;
+    padding-top: 90px;
+    padding-right: 0px;
+    padding-bottom: 20px;
     white-space: nowrap;
 }
 

@@ -1,0 +1,26 @@
+* {font-family: Arial, Helvetica, sans-serif;}
+
+.container {}
+
+.left-box {
+    float:left;
+    background:Red;
+    width:25%;
+    height:280px;
+}
+.middle-box{
+    float:left;
+    background:Green;
+    width:50%;
+    height:280px;
+}
+.right-box{
+    float:right;
+    background:blue;
+    width:25%;
+    height:280px;
+}
+h1{
+    color:green;
+    text-align:center;
+}
