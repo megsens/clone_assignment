@@ -529,9 +529,7 @@ body {
     border-top: 10px solid #1d70b8;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     justify-content: center;
-    /* white-space: nowrap; */
     align-items: center;
     padding-top: 25px;
     display: grid;
@@ -543,4 +541,32 @@ body {
     flex-wrap: wrap;
     justify-content: flex-end;
 
+}
+
+
+.box-content {
+    padding-left: 85px;
+    padding-top: 25px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.box-content a:hover {
+
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-position: under;
+}
+
+
+
+.box-rows {
+
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-bottom
 }
